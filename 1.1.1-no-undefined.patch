@@ -1,0 +1,11 @@
+--- origsrc/pidgimpd-1.1.1/src/Makefile.am	2008-01-31 11:44:30.000000000 -0600
++++ src/pidgimpd-1.1.1/src/Makefile.am	2010-02-09 04:28:45.711224600 -0600
+@@ -1,6 +1,7 @@
+ pidgimpddir = $(PIDGIN_LIBDIR)/pidgin
+ 
+-pidgimpd_la_LDFLAGS = -module -avoid-version $(libmpd_LIBS)
++pidgimpd_la_LDFLAGS = -module -avoid-version -no-undefined
++pidgimpd_la_LIBADD = $(PIDGIN_LIBS) $(libmpd_LIBS)
+ 
+ pidgimpd_LTLIBRARIES = pidgimpd.la
+ 

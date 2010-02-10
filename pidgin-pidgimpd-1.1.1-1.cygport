@@ -1,0 +1,6 @@
+ORIG_PN="pidgimpd"
+
+DESCRIPTION="Pidgin plugin for monitoring and controlling MPD"
+HOMEPAGE="http://ayeon.org/projects/pidgimpd/"
+SRC_URI="http://ayeon.org/projects/pidgimpd/${ORIG_PN}-${PV}.tar.bz2"
+PATCH_URI="1.1.1-no-undefined.patch"
