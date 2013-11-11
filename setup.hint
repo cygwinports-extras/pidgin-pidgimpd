@@ -1,5 +1,0 @@
-category: Audio Net
-requires: libgcc1 libglib2.0_0 libmpd1 libpurple0
-sdesc: "Pidgin plugin for monitoring/controlling MPD"
-ldesc: "PidgiMPD is a Pidgin plugin for monitoring and controlling the
-Music Player Daemon."

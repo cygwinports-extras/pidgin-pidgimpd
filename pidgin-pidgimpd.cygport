@@ -1,0 +1,11 @@
+NAME="pidgin-pidgimpd"
+VERSION=1.1.1
+RELEASE=1
+CATEGORY="Net"
+SUMMARY="Pidgin plugin for monitoring/controlling MPD"
+DESCRIPTION="PidgiMPD is a Pidgin plugin for monitoring and controlling the
+Music Player Daemon."
+HOMEPAGE="http://ayeon.org/projects/pidgimpd/"
+SRC_URI="http://ayeon.org/projects/pidgimpd/pidgimpd-${VERSION}.tar.bz2"
+SRC_DIR="pidgimpd-${VERSION}"
+PATCH_URI="1.1.1-no-undefined.patch"
